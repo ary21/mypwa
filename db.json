@@ -1,4 +1,4 @@
-[{"id":1,"name":"Parnell","gender":"Male","country":"United States"},
+{"id":1,"name":"Parnell","gender":"Male","country":"United States"},
 {"id":2,"name":"Elly","gender":"Female","country":"Netherlands"},
 {"id":3,"name":"Pepito","gender":"Male","country":"Portugal"},
 {"id":4,"name":"Codie","gender":"Male","country":"Thailand"},
@@ -97,4 +97,4 @@
 {"id":97,"name":"Gabi","gender":"Male","country":"Peru"},
 {"id":98,"name":"Karna","gender":"Female","country":"China"},
 {"id":99,"name":"Elenore","gender":"Female","country":"China"},
-{"id":100,"name":"Agosto","gender":"Male","country":"Netherlands"}]
+{"id":100,"name":"Agosto","gender":"Male","country":"Netherlands"}
