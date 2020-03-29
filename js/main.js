@@ -5,7 +5,7 @@ $(document).ready(function() {
     let filterResults = '';
     let filters = [];
 
-    $.get(uri, function(data) {
+    function renderPage(data) {
         filterResults += '<option value="all">Semua Negara</option>'
         $.each(data, function(k, itm) {
             listData += `<div>`+
@@ -21,6 +21,27 @@ $(document).ready(function() {
         
         $('#listData').html(listData)
         $('#filter').html(filterResults)
+    }
+
+    let networkReceived = false
+    const networkUpdate = fetch(uri).then(response => {
+        return response.json()
+    }).then(data => {
+        networkReceived = true
+        renderPage(data)
+    })
+
+    caches.match(uri).then(response => {
+        if (!response) throw Error('no data cache')
+        return response.json()
+    }).then(data => {
+        if (!networkReceived) {
+            renderPage(data)
+            console.log('render from cache');
+        }
+    }).catch(error => {
+        if (error) console.log(error);
+        return networkUpdate
     })
 
     $('#filter').on('change', function(){

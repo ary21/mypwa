@@ -6,14 +6,19 @@ https://github.com/ary21/mypwa
 - Tutorial
 https://www.youtube.com/playlist?list=PLCZlgfAG0GXDsbx5eHX0dFzF2C35THONn
 
-- Service worker
-https://developers.google.com/web/fundamentals/primers/service-workers?hl=id
-
 - Data Dummy
 https://www.mockaroo.com/
 
+- Service worker
+https://developers.google.com/web/fundamentals/primers/service-workers?hl=id
+
+- Offline CookBook
+https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook
+
+
 # API
 https://my-json-server.typicode.com/ary21/mypwa/peoples
+
 
 # DOC
 - Basic Web Application
