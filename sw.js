@@ -8,6 +8,8 @@ var urlsToCache = [
   '/js/bootstrap.min.js',
   '/js/jquery-3.4.1.min.js',
   '/img/picture.jpg',
+  '/img/icons.png',
+  '/img/apple.png',
 ];
 
 self.addEventListener('install', function(event) {
