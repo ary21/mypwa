@@ -1,10 +1,10 @@
 {
   "name": "MyPWA Test Project",
   "short_name": "MyPWA",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "fullscreen",
-  "Scope": "/",
+  "display": "standalone",
+  "background_color": "#3367D6",
+  "theme_color": "#3367D6",
+  "scope": "/",
   "start_url": "/",
   "icons": [
     {
